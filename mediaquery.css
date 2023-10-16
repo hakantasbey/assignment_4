@@ -1,5 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #ECECEC;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid red;
+    background-color: #FFFFFF;
+}
+
+.pc{
+   width: 50%;
+}
+
+.pc img{
+    width: 100%;
+}
+
+.info{
+    width: 50%;
+}
+
+.mba{
+    margin: 1rem 0;
+}
+
+.mba h1{
+    font-size: 32px;
+}
+
+.mba p{
+    font-size: 1.5rem;
+}
+
+.pro-info{
+   margin: 1rem 0;
+}
+
+h3{
+    font-size: 19.2px;
+    font-weight: 600;
+}
+
+.pro-info p{
+    font-size: 17px;
+    color: #555555;
+}
+
+.storage{
+    margin-bottom: 1rem;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 1rem;
+    color: black;
+    padding: .5rem 1rem;
+    width: 5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+ul li:hover{
+    background-color: #2175F5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #2175F5;
+}
+
+.add{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    font-size: 18px;
+    color: white;
+    background-color: #2175F5;
+    width: 12rem;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 0 1rem;
+}
+
+.price{
+    font-size: 34px;
 }
