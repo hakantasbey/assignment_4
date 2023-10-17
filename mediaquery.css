@@ -13,24 +13,29 @@ body{
 
 .container{
     width: 90vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     margin-top: 2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #FFFFFF;
+    box-shadow: 3px 3px 30px black;
 }
 
 .pc{
    width: 50%;
+   height: 100%;
 }
 
 .pc img{
     width: 100%;
+    height: 100%;
 }
 
 .info{
+    height: 100%;
     width: 50%;
 }
 
@@ -40,10 +45,12 @@ body{
 
 .mba h1{
     font-size: 32px;
+    font-weight: 700;
 }
 
 .mba p{
-    font-size: 1.5rem;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .pro-info{
@@ -53,6 +60,7 @@ body{
 h3{
     font-size: 19.2px;
     font-weight: 600;
+    margin-bottom: .5rem;
 }
 
 .pro-info p{
@@ -61,7 +69,7 @@ h3{
 }
 
 .storage{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 ul li{
@@ -103,8 +111,54 @@ a:hover{
     text-align: center;
     padding: 1rem;
     margin-left: 0 1rem;
+    cursor: pointer;
 }
 
 .price{
     font-size: 34px;
+    font-weight: 600;
+    margin-right: 2rem;
 }
+
+span{
+    background-color: #2175F5;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: .4rem .6rem;
+    position: relative;
+    bottom: .5rem;
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .container{
+     width: 1000px;
+     height: 500px;
+    }
+
+    .info{
+        box-shadow: 3px 5px 35px rgba(0, 0, 0, 0.4);
+    }
+ }
+
+
+ 
+@media screen and (max-width:992px) {
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .pc{
+        flex-basis: 100%;
+    }
+}
+
+
