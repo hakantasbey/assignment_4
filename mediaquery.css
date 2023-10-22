@@ -166,7 +166,7 @@ span{
     .container{
         flex-wrap: wrap;
         height: 80%;
-        width: 80%;
+        width: 90%;
         /* border: 1px solid red; */
     }
     .pc{
